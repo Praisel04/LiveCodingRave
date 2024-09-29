@@ -44,6 +44,8 @@ Este programa usa programación en **Ruby**, un lenguaje que te exige tener un p
 >     
 >   - Por suerte Sonic Pi tiene mucha comunidad porque lo que encontrareis soluciones a casi cualquier problema que tengais.
 >
+>   - Una recomendación si vais a realizar un show en vivo, podeis bajar la transparencia de la APP para mostrar unas visuales que podeis encontrar en YT
+>     
 >   - Por último, es un programa muy frustrante asique darle con paciencia que poco a poco las cosas salen adelante.
 
 

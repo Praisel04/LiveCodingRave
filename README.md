@@ -1,5 +1,5 @@
 # LIVE CODING RAVE
-**Bienvenidos a la presentacion de mi proyecto de LiveCodingRave para la Universidad Camilo José Cela.**
+**Bienvenidos a la presentacion de mi proyecto de LiveCodingRave para la Universidad Camilo José Cela.** 
 **Soy un alumno de 3º de Ingeniería informática y nos han pedido hacer una pequeña Rave usando el programa Sonic Pi y porgramando con Ruby.**
 
 **El codigo se basa en una combinacion de Bucles (Loops) que reproducen sonidos de forma continua (kick, bass, hi-hats) y se combinan con algunos efectos de sonido y jugando con el tiempo que se reproducen y su volumen.**

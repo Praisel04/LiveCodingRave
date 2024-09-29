@@ -10,8 +10,7 @@ Para usar este codigo o poder hacer los tuyos propios hay que seguir algunos sen
 ### INSTALACIÓN
   1. Primero deberemos instalar Sonic Pi para nuestro sistema operativo desde su pagina principal: https://sonic-pi.net
      
-  2. Una vez tengamos instalado Sonic Pi nos dirigeremos en la barra superior al apartado **Código** y haremos click en el apartado cargar, ahi podremos       
-     importar el archivo directamente, también podremos copiar y pegar el código.
+  2. Una vez tengamos instalado Sonic Pi nos dirigeremos en la barra superior al apartado **Código** y haremos click en el apartado cargar, ahi podremos importar el archivo directamente o también podremos copiar y pegar el código.
     
   3. Usar el apartado inferior del codigo para empezar a usar los sonidos.
 
@@ -23,10 +22,27 @@ Y el segundo buffer contiene toda la base, lo que serían los kicks, hi-hats, ba
 
 Para usarlo y hacerlo funcionar al final del segundo buffer nos encontraremos el **SET UP DE VARIABLES** donde simplemente pondremos a 1 lo que queramos que suene y a 0 lo que no.
 
-### ATAJOS IMPORTANTES
-Hay múltiples atajos en esta aplicación pero para mi los mas importantes son los siguientes:
-  - **ALT + R** Esto inicia el bucle, vale tanto para usarlo al principio como para añadir los cambios.
-    **LO MAS IMPORTANTE ES QUE NO PARA LA EJECUCIÓN**.
-  - **ALT + S** Para todos los bucles, finalizando su reporducción.
-  
-   
+> [!IMPORTANT] 
+> ### ATAJOS IMPORTANTES
+> Hay múltiples atajos en esta aplicación pero para mi los mas importantes son los siguientes:
+>  - **ALT + R** Esto inicia el bucle, vale tanto para usarlo al principio como para añadir los cambios.
+>    **LO MAS IMPORTANTE ES QUE NO PARA LA EJECUCIÓN**.
+> - **ALT + S** Para todos los bucles, finalizando su reporducción.
+
+### CARACTERÍSTICAS CLAVE
+Lo mas importante de este proyecto es poder hacer uso de la programación para hacer música y sobretodo poder modificarla en directo, haciendo uso de variables y jugndo con operaciones básicas como If get o while.
+
+Por otro lado, el poder jugar con el sonido de forma directa usando bucles for te abre un mundo de posibilidades para cualquier estilo de musica, en concreto para este proyecto el poder hacer drops para la cancion.
+
+Este programa usa programación en **Ruby**, un lenguaje que te exige tener un poco de idea de programacion (sobre todo en bucles) pero que aun así es sencillo de aprender si se trabaja.
+
+> [!TIP]
+> ### ALGUNOS CONSEJOS DESDE MI PUNTO DE VISTA
+> Yo no soy una persona que tenga altos conocimientos en la musica, asique si quereis dedicarle una gran cantidad de tiempo os voy a dar unos pequeños consejos que a mi me han ayudado bastante.
+>   - No tengais miedo a experimentar, tocar bpm, tocar bucles enlazados y sobretodo intentar recrear cualquier cancion que os guste
+>     
+>   - Por suerte Sonic Pi tiene mucha comunidad porque lo que encontrareis soluciones a casi cualquier problema que tengais.
+>
+>   - Por último, es un programa muy frustrante asique darle con paciencia que poco a poco las cosas salen adelante.
+
+

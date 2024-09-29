@@ -1,4 +1,4 @@
-#################################################################### 
+####################################################################
 #                                                                  #
 # Codigo relaizado por:            #     #  #       #  ####        #
 #                                  #     #   #     #   #           #
@@ -21,7 +21,7 @@ up = "/Users/Ivan/Desktop/kick/dropfinal.wav"
 m = "/Users/Ivan/Desktop/kick/melodia.wav"
 bass = "/Users/Ivan/Desktop/kick/bass.wav"
 fire = "/Users/Ivan/Desktop/kick/grito.mp3"
-letra1 = "/Users/Ivan/Desktop/kick/letra1.mp3"
+
 
 
 # Reloj base para sincronizar los loops
@@ -38,8 +38,10 @@ live_loop :kicks do
     if pattern.tick == "x"
       sample kick, amp: 2  # Reproduce sonido de Kick
     end
+  else
+    sleep 0.25               # Hacemos un sleep que dure 0.25 segundos
   end
-  sleep 0.25               # Hacemos un sleep que dure 0.25 segundos
+  sleep 0.25
 end
 
 # Kick loop 2
@@ -60,12 +62,14 @@ end
 live_loop :hi_hat do      # Este loop es igual que el del kick pero reproduciendo el hi-hat en los tiempos
   sync :reloj             # de silencio del kick
   if get(:hihat) == 1
-    pattern = "x-x-".ring
+    pattern = "x-".ring
     if pattern.tick == "x"
       with_fx :reverb, room: 0.9 do  # Añadimos un efecto de sonido (Reverb)
         sample :hat_psych, amp: 2
       end
     end
+  else
+    sleep 0.25
   end
   sleep 0.25
 end
@@ -86,6 +90,7 @@ end
 
 # Loop melodía
 live_loop :melody do
+  
   if get(:melodia) == 1
     sample m, amp: 2
   end
@@ -153,9 +158,9 @@ end
 
 #####################################  SET DE VARIABLES  #####################################
 
-set :kick,    0
+set :kick,    1
 set :kick2,   0
-set :hihat,   0
+set :hihat,   1
 set :hihat2,  0
 set :melodia, 0
 set :bass1 ,  0

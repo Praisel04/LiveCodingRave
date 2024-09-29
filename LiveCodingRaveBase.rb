@@ -15,15 +15,14 @@
 use_bpm 136  # Numero de BPM seleccionados
 
 # Importacion de los samples
-hat = "/Users/ivise/Desktop/sonidos/808.wav"
-kick = "/Users/ivise/Desktop/sonidos/pon1.wav"
-up = "/Users/ivise/Desktop/sonidos/dropfinal.wav"
-m = "/Users/ivise/Desktop/sonidos//melodia.wav"
+hat = "/Users/Ivan/Desktop/kick/hihat.wav"
+kick = "/Users/Ivan/Desktop/kick/kick.wav"
+up = "/Users/Ivan/Desktop/kick/dropfinal.wav"
+m = "/Users/Ivan/Desktop/kick/melodia.wav"
+bass = "/Users/Ivan/Desktop/kick/bass.wav"
+fire = "/Users/Ivan/Desktop/kick/grito.mp3"
+letra1 = "/Users/Ivan/Desktop/kick/letra1.mp3"
 
-bass = "/Users/ivise/Desktop/sonidos/bass.wav"
-fire = "/Users/ivise/Desktop/sonidos/grito.mp3"
-letra1 = "/Users/ivise/Desktop/sonidos/letra1.mp3"
-clap = "/Users/ivise/Desktop/sonidos/clap.wav"
 
 # Reloj base para sincronizar los loops
 live_loop :reloj do
@@ -35,7 +34,7 @@ live_loop :kicks do
   
   sync :reloj              # Sincronizacion con Reloj
   if get(:kick) == 1       # Si la variable recibe el valor 1, ejecuta el patron
-    pattern = "x-x-".ring  # Patron del Kick, reproduciendo sonido donde se encuentre la X
+    pattern = "-x-x".ring  # Patron del Kick, reproduciendo sonido donde se encuentre la X
     if pattern.tick == "x"
       sample kick, amp: 2  # Reproduce sonido de Kick
     end
@@ -47,7 +46,7 @@ end
 live_loop :kicks2 do       # Este loop es igual que el anterior pero cambiando el patron del kick
   sync :reloj
   if get(:kick2) == 1
-    pattern = "x-x-xxx-x-x-xxx-".ring
+    pattern = "-x-x-xxx-x-x-xxx".ring
     if pattern.tick == "x"
       sample kick, amp: 2 #
     end
@@ -61,7 +60,7 @@ end
 live_loop :hi_hat do      # Este loop es igual que el del kick pero reproduciendo el hi-hat en los tiempos
   sync :reloj             # de silencio del kick
   if get(:hihat) == 1
-    pattern = "-x-x".ring
+    pattern = "x-x-".ring
     if pattern.tick == "x"
       with_fx :reverb, room: 0.9 do  # Añadimos un efecto de sonido (Reverb)
         sample :hat_psych, amp: 2
@@ -75,7 +74,7 @@ end
 live_loop :hi_hat2 do      # Este loop es igual que el del kick pero reproduciendo el hi-hat en los tiempos
   sync :reloj             # de silencio del kick
   if get(:hihat2) == 1
-    pattern = "-x-x-xxx-x-x-xxx".ring
+    pattern = "x-x-xxx-x-x-xxx-".ring
     if pattern.tick == "x"
       with_fx :reverb, room: 0.9 do  # Añadimos un efecto de sonido (Reverb)
         sample :hat_psych, amp: 2
@@ -84,9 +83,6 @@ live_loop :hi_hat2 do      # Este loop es igual que el del kick pero reproducien
   end
   sleep 0.25
 end
-
-#Loop letra de la cancion
-
 
 # Loop melodía
 live_loop :melody do
@@ -105,7 +101,6 @@ live_loop :bass do         # Este loop se ejecuta de la misma manera, pero repro
   end
   sleep 1
 end
-
 
 # Loop drop
 live_loop :drop do
@@ -130,10 +125,7 @@ live_loop :drop do
     end
     sleep 1.5
     #Sonido predrop
-    
     sample fire, amp: 4
-    
-    
     
     sleep 1.5
     
@@ -160,13 +152,12 @@ live_loop :final do  # Este loop ejecuta un sample de uptempo
 end
 
 #####################################  SET DE VARIABLES  #####################################
-set :kick,    1
+
+set :kick,    0
 set :kick2,   0
 set :hihat,   0
 set :hihat2,  0
 set :melodia, 0
-
-set :letra ,  0
 set :bass1 ,  0
 set :dropardo,0
 

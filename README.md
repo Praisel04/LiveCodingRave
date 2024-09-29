@@ -46,3 +46,23 @@ Este programa usa programación en **Ruby**, un lenguaje que te exige tener un p
 >   - Por último, es un programa muy frustrante asique darle con paciencia que poco a poco las cosas salen adelante.
 
 
+>[!NOTE]
+>### DOCUMENTACIÓN
+> **SONIC PI:** https://sonic-pi.net/tutorial.html
+>
+> **MP3 CUTTER:** https://mp3cut.net/es/
+>
+> **VOCAL REMOVER:** https://vocalremover.org/splitter-ai
+>
+> **MELODY GENRATOR:** https://dopeloop.ai/melody-generator/
+>
+> **SONG BPM:** https://songbpm.com/
+>
+> **TECHNO SAMPLES:**
+>    https://www.loopmasters.com/genres/40-Techno?srsltid=AfmBOorgyWB2plTl2cSTh1MSIXF0XR28i28we7g5g0hW45qDhZ6-D9I-
+>
+>    https://samplefocus.com/
+>
+> **README GUIDE:** https://tiloid.com/p/readme-md-the-ultimate-guide
+>
+> **CHAT GPT 4**

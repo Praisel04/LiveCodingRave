@@ -31,11 +31,11 @@ Para usarlo y hacerlo funcionar al final del segundo buffer nos encontraremos el
 > - **ALT + S** Para todos los bucles, finalizando su reporducción.
 
 ### CARACTERÍSTICAS CLAVE
-Lo mas importante de este proyecto es poder hacer uso de la programación para hacer música y sobretodo poder modificarla en directo, haciendo uso de variables y jugndo con operaciones básicas como If get o while.
+Lo mas importante de este proyecto es poder hacer uso de la programación para hacer música y sobretodo poder modificarla en directo, haciendo uso de variables y jugando con operaciones básicas como If get o while.
 
-Por otro lado, el poder jugar con el sonido de forma directa usando bucles for te abre un mundo de posibilidades para cualquier estilo de musica, en concreto para este proyecto el poder hacer drops para la cancion.
+Por otro lado, el poder modificar el sonido de forma directa usando bucles for te abre un mundo de posibilidades para cualquier estilo de música, en concreto para este proyecto el poder hacer drops para la canción.
 
-Este programa usa programación en **Ruby**, un lenguaje que te exige tener un poco de idea de programacion (sobre todo en bucles) pero que aun así es sencillo de aprender si se trabaja.
+Este programa usa programación en **Ruby**, un lenguaje que te exige tener un poco de idea de programacion (sobretodo en bucles) pero que aun así es sencillo de aprender si se trabaja.
 
 > [!TIP]
 > ### ALGUNOS CONSEJOS DESDE MI PUNTO DE VISTA

@@ -15,12 +15,12 @@
 use_bpm 136  # Numero de BPM seleccionados
 
 # Importacion de los samples
-hat = "/Users/Ivan/Desktop/kick/hihat.wav"
-kick = "/Users/Ivan/Desktop/kick/kick.wav"
-up = "/Users/Ivan/Desktop/kick/dropfinal.wav"
-m = "/Users/Ivan/Desktop/kick/melodia.wav"
-bass = "/Users/Ivan/Desktop/kick/bass.wav"
-fire = "/Users/Ivan/Desktop/kick/grito.mp3"
+hat = "RutaDelArchivo"
+kick = "RutaDelArchivo"
+up = "RutaDelArchivo"
+m = "RutaDelArchivo"
+bass = "RutaDelArchivo"
+fire = "RutaDelArchivo"
 
 
 

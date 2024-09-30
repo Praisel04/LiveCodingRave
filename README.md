@@ -6,12 +6,15 @@
 
 >[!IMPORTANT]
 > ## INTEGRANTES DEL PROYECTO
->  
+>  -Iván Seco Martín
+>
+>  -Mario Suárez del Hierro
+>
+>  -Javier Poza Garijo
+>
+>
 > ## ANTES DE EMPEZAR
 >Para usar este codigo o poder hacer los tuyos propios hay que seguir algunos sencillos pasos
->  -Iván Seco Martín
->  -Mario Suárez del Hierro
->  -Javier Poza Garijo
 >
 > ### INSTALACIÓN
 >  1. Primero deberemos instalar Sonic Pi para nuestro sistema operativo desde su pagina principal: https://sonic-pi.net

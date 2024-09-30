@@ -5,8 +5,13 @@
 **El codigo se basa en una combinacion de Bucles (Loops) que reproducen sonidos de forma continua (kick, bass, hi-hats) y se combinan con algunos efectos de sonido y jugando con el tiempo que se reproducen y su volumen.**
 
 >[!IMPORTANT]
+> ## INTEGRANTES DEL PROYECTO
+>  
 > ## ANTES DE EMPEZAR
 >Para usar este codigo o poder hacer los tuyos propios hay que seguir algunos sencillos pasos
+>  -Iván Seco Martín
+>  -Mario Suárez del Hierro
+>  -Javier Poza Garijo
 >
 > ### INSTALACIÓN
 >  1. Primero deberemos instalar Sonic Pi para nuestro sistema operativo desde su pagina principal: https://sonic-pi.net
